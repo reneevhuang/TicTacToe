@@ -10,12 +10,12 @@ public class MyWorld extends World
 {
 
     /**
-     * Constructor for objects of class MyWorld.
-     * 
+     * Determine the size of the pop up screen to play the game
+     * Create a world with a grid
      */
     public MyWorld()
     {    
-        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
+        // 
         super(600, 400, 1); 
     }
 }

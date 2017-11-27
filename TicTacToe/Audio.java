@@ -1,18 +1,24 @@
-/**
- * Write a description of class Audio here.
- * 
- * @author Robert Hammond
- * @version (a version number or a date)
- */
-public class Audio  
+public abstract class Audio  
 {
 
     /**
-     * Constructor for objects of class Audio
+     * Plays player 1's audio success clipping
      */
-    public Audio()
+    public void player1SuccessSound()
     {
+        
     }
-
-    //this is unncessary commenting
+    
+    /**
+     * Plays player 2's audio success clipping
+     */
+    public void player2SuccessSound()
+    {
+        
+    }
+    
+    public void moveSoundSound()
+    {
+        
+    }
     }
