@@ -1,12 +1,17 @@
+import greenfoot.*;
 public abstract class Audio  
 {
-
+    
+    public GreenfootSound applause = new GreenfootSound("applause2.mp3");
+    public GreenfootSound boo = new GreenfootSound("boo2.mp3");
+    public GreenfootSound move = new GreenfootSound("BOUNCE.mp3");
+    
     /**
      * Plays player 1's audio success clipping
      */
     public void player1SuccessSound()
     {
-        
+        applause.play();
     }
     
     /**
@@ -14,11 +19,22 @@ public abstract class Audio
      */
     public void player2SuccessSound()
     {
-        
+        applause.play();
     }
     
-    public void moveSoundSound()
+    /**
+     * Player move audio clipping
+     */
+    public void moveSound()
     {
-        
+        move.play();
+    }
+    
+    /**
+     * Computer winning audio clipping
+     */
+    public void computerWins()
+    {
+        boo.play();
     }
     }
