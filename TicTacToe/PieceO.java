@@ -1,19 +1,19 @@
-import greenfoot.*;
 /**
- * Write a description of class PieceO here.
+ * Write a description of class XPiece here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class PieceO extends Actor
+public class PieceO  
 {
 
     /**
      * Constructor for objects of class XPiece
      */
-    public PieceO(int x, int y)
+    public PieceO()
     {
-        
     }
 
+    
+    //renee huang
 }
