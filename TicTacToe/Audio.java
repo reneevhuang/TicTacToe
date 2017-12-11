@@ -1,15 +1,14 @@
 import greenfoot.*;
-public abstract class Audio  
+public class Audio  
 {
     
-    public GreenfootSound applause = new GreenfootSound("applause2.mp3");
-    public GreenfootSound boo = new GreenfootSound("boo2.mp3");
-    public GreenfootSound move = new GreenfootSound("BOUNCE.mp3");
-<<<<<<< HEAD
-=======
+    public GreenfootSound applause = new GreenfootSound("applause.mp3");
+    public GreenfootSound boo = new GreenfootSound("boo.mp3");
+    public GreenfootSound move = new GreenfootSound("move.mp3");
+
     //must inlcude audio files 
     
->>>>>>> 5ff4b2423be9232e82e83f490a6a4db0fa994f14
+
     /**
      * Plays player 1's audio success clipping
      */
