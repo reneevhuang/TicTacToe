@@ -5,6 +5,11 @@ public abstract class Audio
     public GreenfootSound applause = new GreenfootSound("applause2.mp3");
     public GreenfootSound boo = new GreenfootSound("boo2.mp3");
     public GreenfootSound move = new GreenfootSound("BOUNCE.mp3");
+<<<<<<< HEAD
+=======
+    //must inlcude audio files 
+    
+>>>>>>> 5ff4b2423be9232e82e83f490a6a4db0fa994f14
     /**
      * Plays player 1's audio success clipping
      */
